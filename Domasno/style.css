@@ -1,0 +1,257 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: #fff;
+}
+a:hover
+{
+    color: paleturquoise;
+}
+.navbar li
+{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.navbar ul
+{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.navbar
+{
+    background-image: url("images/software.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+.navbar span
+{
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: yellowgreen;
+    word-spacing: 3px;
+}
+.navbar h1:first-of-type
+{
+    color: yellowgreen;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 320px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.navbar h1:last-of-type
+{
+    margin-left: 680px;
+    font-size: 28px;
+    color: white;
+    margin-top: -5px;
+    font-family: sans-serif;
+}
+.navbar h2
+{
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.section .mainDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section .mainDiv div:first-child
+{
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: -50px;
+    padding: 20px;
+}
+.section .mainDiv div:first-child p
+{
+    line-height: 25px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.section .mainDiv div:first-child h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.section .mainDiv div:last-child
+{
+    margin-top: 20px;
+    border-right: 4px solid yellowgreen;
+    border-top: 4px solid yellowgreen;
+}
+.section
+{
+    background-color: #46a7a4;
+    height: 500px;
+}
+.section .mainDiv button
+{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+.section .mainDiv button a
+{
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.secondSection
+{
+    background-color: rgba(66, 129, 124, 0.1);
+    height: 710px;
+}
+.secondSection h1
+{
+    display: inline-block;
+    margin-left: 1200px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #2B7E81;
+    margin-top: 35px;
+    font-size: 40px;
+    text-shadow: 2px -2px 2px yellowgreen;
+}
+.secondSection .secondDiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.secondSection .secondDiv div
+{
+    padding: 20px;
+    background-color: #46a7a4;
+    height: 520px;
+    border-radius: 10px;
+    border: 4px solid yellowgreen;
+}
+.secondSection .secondDiv div p
+{
+    width: 300px;
+    line-height: 23px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #fff;
+}
+.secondSection .secondDiv img
+{
+    margin-left: 45px;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+.thirdSection h1
+{
+    display: inline-block;
+    margin-left: 615px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #2B7E81;
+    margin-top: 45px;
+    font-size: 30px;
+    text-shadow: 2px -2px 2px yellowgreen;
+}
+.thirdSection .thirdDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.thirdSection .thirdDiv div
+{
+    text-align: center;
+    background-color: #2B7E81;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.thirdSection .thirdDiv div h2
+{
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bolder;
+}
+.thirdSection .thirdDiv div p
+{
+    font-family: sans-serif;
+    font-style: italic;
+    color: yellowgreen;
+}
+.thirdSection .thirdDiv div img
+{
+    border-radius: 10px;
+}
+/*.thirdSection*/
+/*{*/
+/*    background-color: rgba(66, 129, 124, 0.1);*/
+/*}*/
+footer
+{
+    background-color: #46a7a4;
+    height: 120px;
+    color: white;
+}
+footer a
+{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    padding-top: 21px;
+}
+footer p
+{
+    font-family: sans-serif;
+    padding-top: 3px;
+}
+footer .footerDiv div
+{
+    display: flex;
+}
+footer .footerDiv
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+footer > p
+{
+    float: right;
+    color: #fff;
+    margin-top: -35px;
+    margin-right: 250px;
+}
